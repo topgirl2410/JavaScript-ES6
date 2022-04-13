@@ -16,3 +16,11 @@ console.log(email.toLowerCase());
 /****************************************************************************************** */
 console.log(email2.toUpperCase());
 console.log(email2.toLowerCase());
+
+/******************************************************************************************* */
+// Convertir numeros en Strings...
+
+const precio = 500;
+
+console.log(precio);
+console.log(precio.toString());
