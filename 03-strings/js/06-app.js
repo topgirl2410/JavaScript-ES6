@@ -2,10 +2,10 @@
 
 const estudiante = "Maria Pinto ";
 
-  // .repeat() te va a permitir repetir una cadena de texto...
+// .repeat() te va a permitir repetir una cadena de texto...
 
 
-  // Si a .repeat() le pasas un numero que no es entero, el lo redondea... (pregunta para entrevista...);
+// Si a .repeat() le pasas un numero que no es entero, el lo redondea... (pregunta para entrevista...);
 const texto = "en promoción ".repeat(3);
 
 
@@ -15,4 +15,8 @@ console.log(estudiante);
 
 // .Split(), te va a permitir dividir un String...
 const clases = "Estoy aprendiendo JavaScript Moderno ES6"
+console.log(clases.split(" "));
 
+
+const hobbies = " leer, caminar, bailar, programar...";
+console.log(hobbies.split(", "));
