@@ -22,8 +22,8 @@
 
 /**
  * Numeros enteros: 
- * Math.round(x) Devuelve x redondeado a su entero más cercano;
- * Math.ceil(x) Devuuelve x redondeado a su entero más cercano;
+ * Math.round(x) Devuelve x redondeado hacia abajo;
+ * Math.ceil(x) Devuuelve x redondeado hacia arriba;
  * Math.floor(x) Devuelve x redondeado a su entero más cercano;
  * Math.trunc(x) Devuelve la parte entera de x (nuevo en ES6);
  * Math.sign(x) Devuelve si x es negativo, nulo o positivo;
@@ -145,3 +145,46 @@
  * 
  * Resultado: número aleatorio;
  */
+
+let resultado;
+
+// PI 
+resultado = Math.PI;
+
+// Redondea hacia abajo
+resultado = Math.round(2.8);
+resultado = Math.round(2.2);
+
+// Redondea hacia arriba
+resultado = Math.ceil(2.1);
+
+// Redondea hacia abajo si o si 
+resultado = Math.floor(2.2);
+
+
+// Raiz cuadrada 
+resultado = Math.sqrt(144);
+
+
+// Valor absoluto
+resultado = Math.abs(-500);
+
+// Potencia 
+resultado = Math.pow(8, 3);
+
+
+// Minimo 
+resultado = Math.min(5, 10, 12, 9, 3);
+
+// Maximo
+resultado = Math.max(5, 10, 12, 9, 3);
+
+// Aleatorio
+resultado = Math.random() * 20;
+
+// Aleatorio dentro de un rango
+resultado = Math.floor(Math.random() * 30);
+
+
+
+console.log(resultado);
