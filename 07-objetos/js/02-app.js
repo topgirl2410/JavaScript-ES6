@@ -6,7 +6,12 @@ const producto = {
     disponible: true
 }
 
-// Como acceder a los valores de un objeto
+// Como acceder a los valores de un objeto (la más comun en JavaScript es está)
 console.log(producto.nombre);
 console.log(producto.precio);
 console.log(producto.disponible);
+
+// Otra manera de hacerlo 
+console.log(producto['nombre']);
+console.log(producto['precio']);
+console.log(producto['disponible']);
