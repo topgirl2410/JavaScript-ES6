@@ -7,3 +7,6 @@ const producto = {
 }
 
 // Como acceder a los valores de un objeto
+console.log(producto.nombre);
+console.log(producto.precio);
+console.log(producto.disponible);
