@@ -17,3 +17,4 @@ function saludar(nombre, apellido) {
 }
 
 saludar("María", "Pinto");
+saludar();
