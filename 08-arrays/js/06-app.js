@@ -28,9 +28,12 @@ const producto2 = {
 // Spread Operator
 
 let resultado;
-resultado = [...carrito, producto]; // Ponerlo al final
+resultado = [...carrito, producto];
 
-resultado = [producto2, ...resultado]; // ponerlo al principio
+
+resultado = [...resultado, producto1]; // Ponerlo al final
+resultado = [producto2, ...resultado]; // Ponerlo al principio
+
 
 /*************************************************************************************** */
 console.table(resultado);
