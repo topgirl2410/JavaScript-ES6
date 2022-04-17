@@ -17,10 +17,11 @@ const producto = {
 
 // Destructuring de objetos anidados
 
-const { nombre, informacion, informacion: { fabricacion: { pais } } } = producto; // (informacion: { fabricacion: { pais } } destructuring de objetos anidados);
+const { nombre, informacion, informacion: { fabricacion, fabricacion: { pais } } } = producto; // (informacion: { fabricacion: { pais } } destructuring de objetos anidados);
 
 
 
 console.log(nombre);
 console.log(informacion);
+console.log(fabricacion);
 console.log(pais);
