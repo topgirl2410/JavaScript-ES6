@@ -11,8 +11,8 @@ const reproductor = {
     crear: function () {
         console.log(`Creando tu playList`);
     },
-    playlist: function () {
-        console.log(`Reproduciendo tu playlist`)
+    playlist: function (nombre) {
+        console.log(`Reproduciendo tu playlist de ${nombre}`)
     },
     pausar: function () {
 
@@ -31,7 +31,10 @@ const reproductor = {
 reproductor.reproducir(30);
 reproductor.siguiente();
 reproductor.crear();
-reproductor.playlist();
+reproductor.playlist("Romeo Santos");
+reproductor.playlist("Bachatas 2022");
+reproductor.playlist("Marc Anthony");
+reproductor.playlist("ash");
 reproductor.pausar();
 reproductor.parar();
 reproductor.borrar(30);
