@@ -12,13 +12,13 @@ const carrito = [
 
 ];
 
-const nuevoArreglo = carrito.map((producto) => {
+const nuevoArreglo = carrito.map(producto => {
     return `${producto.nombre} - precio: ${producto.precio}`;
 })
 
-const nuevoArreglo1 = carrito.forEach((producto) => {
-    console.log(`${producto.nombre} - precio: ${producto.precio}`);
-});
+carrito.forEach(producto => console.log(`${producto.nombre} - precio: ${producto.precio}`));
 
 console.log(nuevoArreglo);
-console.log(nuevoArreglo1);
+
+
+// Los Arrow function si no se colocan en el return y queda en una sola linea da por implicito el return..solo en el map;
