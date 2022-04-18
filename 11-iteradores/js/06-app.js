@@ -8,6 +8,7 @@ pendientes.forEach((pendiente, indice) => {
     console.log(`${indice} : ${pendiente}`)
 })
 
+/************************************************************************************************************ */
 
 const carrito = [
     { nombre: "Monitor 20 pulgadas", precio: 600 },
