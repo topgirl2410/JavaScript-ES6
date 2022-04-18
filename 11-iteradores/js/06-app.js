@@ -18,4 +18,10 @@ const carrito = [
     { nombre: "Smartphone", precio: 1500 }
 ]
 
-carrito.forEach(producto => console.log(producto.precio))
+const nuevoArreglo = carrito.forEach(producto => producto.nombre)  // Undefined
+
+const nuevoArreglo1 = carrito.map(producto => producto.precio) // Crea un array nuevo;
+
+
+console.log(nuevoArreglo);
+console.log(nuevoArreglo1);
