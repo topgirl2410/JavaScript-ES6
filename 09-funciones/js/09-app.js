@@ -24,10 +24,13 @@ const reproductor = {
     },
     borrar: function (id) {
         console.log(`Borrando listado de canciones... ${id}`)
+    },
+    resetear: function (id) {
+        console.log(`Haciendo reseteo de  ${id} `)
     }
 }
 
-/****************************************************************************************** */
+/**********************************************Acceso a las funciones******************************************** */
 reproductor.reproducir(30);
 reproductor.siguiente();
 reproductor.crear();
@@ -38,3 +41,4 @@ reproductor.playlist("ash");
 reproductor.pausar();
 reproductor.parar();
 reproductor.borrar(30);
+reproductor.resetear("ash");
