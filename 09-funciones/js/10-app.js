@@ -7,7 +7,7 @@
  * es limitada y no se puede utilizar en todas las situaciones.
  * 
  * Diferencias y limitaciones: 
- * - No tiene sus propios enlaces a ths o super y no se debe usar como métodos.
+ * - No tiene sus propios enlaces a this o super y no se debe usar como métodos.
  * - No tiene argumentos o palabras clave new.target.
  * - No apta para los métodos call, apply y bind, que generalmente se basan en establecer un
  * ámbito o enlace.
