@@ -14,3 +14,20 @@ for (let i = 1; i <= 20; i++) {
         console.log(`El número ${i} es IMPAR`)  // Saca solo los números impares;
     }
 }
+
+/**************************************************** Ejercicio 2 *******************************************************************************************************************************/
+
+const carrito = [
+    { nombre: "Monitor 20 pulgadas", precio: 300 },
+    { nombre: "Laptop", precio: 400 },
+    { nombre: "Altavoces", precio: 100 },
+    { nombre: "Portatil", precio: 1200 },
+    { nombre: "Teclado", precio: 151 },
+    { nombre: "Smarphone", precio: 1400 },
+]
+
+console.log(carrito.length); // Saber cuantos arreglos contiene el array;
+
+for (let i = 0; i < carrito.length; i++) {
+    console.log(carrito[i].nombre);
+}
