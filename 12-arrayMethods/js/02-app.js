@@ -14,5 +14,15 @@ const carro = [
 /*************************************************Array Method (.forEach) ******************************************************************/
 
 meses.forEach((mes, i) => {
-    console.log(i)
-})
+    if (mes === "Febrero") {
+        console.log(`Encontrado en el indice ${i}`);
+    }
+});
+
+/*******************************************************Array Method (.findIndex)**************************************************************/
+
+// Encuentra el indice de Abril (Si te retorna un -1 es que no lo pudo encontrar)
+
+const indice = meses.findIndex(mes => mes === "Abril");
+
+console.log(indice);
