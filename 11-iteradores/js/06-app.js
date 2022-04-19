@@ -21,8 +21,9 @@ const carrito = [
 
 const nuevoArreglo = carrito.forEach(producto => producto.nombre)  // Undefined
 /************************************** ( .map )***************************************************************** */
+
 const nuevoArreglo1 = carrito.map(producto => producto.precio) // Crea un array nuevo;
 
-
+/**************************************************************************************************************** */
 console.log(nuevoArreglo);
 console.log(nuevoArreglo1);
