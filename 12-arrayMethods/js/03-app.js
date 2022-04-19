@@ -1,3 +1,23 @@
 'use strict';
+/****************************************************************************************************************************/
+const carrito = [
+    { nombre: "Cazadora Piel", precio: 350 },
+    { nombre: "Vaqueros", precio: 90 },
+    { nombre: "Camisa Blanca", precio: 60 },
+    { nombre: "Vestido Lunares", precio: 50 },
+    { nombre: "Top de Noche", precio: 20 },
+    { nombre: "Ropa Deportiva", precio: 120 },
+]
+/****************************************** Array Method (.forEach()) ********************************************************/
 
-/****************************************** Array Method (.reduce())******************************************************* */
+let total = 0;
+carrito.forEach(producto => total += producto.precio);
+
+console.log(total);
+
+
+/************************************************* Array Method (.reduce()) **************************************************/
+
+let resultado = carrito.reduce((total, producto) => total + producto.precio, 0);
+
+console.log(resultado)
