@@ -16,8 +16,8 @@ carrito.forEach(producto => total += producto.precio);
 console.log(total);
 
 
-/************************************************* Array Method (.reduce()) **************************************************/
+/************************************************* Array Method (.reduce()) Se recomienda usar mas este que el .forEach() aunque los dos son validos **************************************************/
 
 let resultado = carrito.reduce((total, producto) => total + producto.precio, 0);
 
-console.log(resultado)
+console.log(resultado);
