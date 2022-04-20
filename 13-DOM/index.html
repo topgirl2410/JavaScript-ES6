@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MiViaje.com</title>
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.0/normalize.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="css/fontawesome-all.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <div class="hero">
+        <header class="header contenedor">
+            <div class="logo">
+                <img src="img/logo.png" alt="imagen logo">
+            </div>
+            <nav class="navegacion">
+                <a href="#">Vender</a>
+                <a href="#">Ayuda</a>
+                <a href="#">Registro</a>
+                <a href="#">Iniciar Sesión</a>
+            </nav>
+        </header>
+
+        <div class="contenido-hero contenedor">
+            <h1>Encuentra <span> hospedaje </span>para tus próximas vacaciones</h1>
+            <form action="/buscador" method="POST" class="formulario formulario-buscar" id="formulario">
+                <input type="text" name="busqueda" class="busqueda" placeholder="New York, Londres, Roma, Guadalajara">
+                <input type="submit" value="Buscar" id="btn-submit">
+            </form>
+        </div>
+    </div>
+    <!--.hero-->
+
+    <main class="contenido contenedor">
+        <section class="hacer">
+            <h2>Que Hacer</h2>
+            <div class="contenedor-cards">
+                <div class="card">
+                    <img src="img/hacer1.jpg" alt="imagen hacer">
+                    <div class="info">
+                        <p class="categoria concierto">Concierto</p>
+                        <p class="titulo">Música Electronica 2022</p>
+                        <p class="precio">1,200€ por persona</p>
+                    </div>
+                </div><!-- .card -->
+
+                <div class="card">
+                    <img src="img/hacer2.jpg" alt="imagen hacer">
+                    <div class="info">
+                        <p class="categoria concierto">Concierto</p>
+                        <p class="titulo">Rock en Los Ángeles</p>
+                        <p class="precio">300€ por persona</p>
+                    </div>
+                </div><!-- .card -->
+
+                <div class="card">
+                    <img src="img/hacer3.jpg" alt="imagen hacer">
+                    <div class="info">
+                        <p class="categoria concierto">Clase Cocina</p>
+                        <p class="titulo">Comida Española para Principiantes</p>
+                        <p class="precio">400€ por persona</p>
+                    </div>
+                </div><!-- .card -->
+
+                <div class="card">
+                    <img src="img/hacer4.jpg" alt="imagen hacer">
+                    <div class="info">
+                        <p class="categoria concierto">Paseo en Bici</p>
+                        <p class="titulo">Paseo en las Montañas</p>
+                        <p class="precio">200€ por persona</p>
+                    </div>
+                </div><!-- .card -->
+            </div>
+            <!--.columnas4 cuadros-->
+        </section>
+
+        <section class="hacer">
+            <h2 class="mi-viaje-plus">Presentamos Miviaje.com Plus</h2>
+            <div class="contenedor-cards premium">
+                <div class="info">
+                    <h3>Una nueva sección de alojamientos de lujo</h3>
+                    <a href="#" class="boton btn-mi-viaje">Explorar alojamientos</a>
+                </div>
+            </div>
+            <!--.columnas4 cuadros-->
+        </section>
+
+        <section class="hospedaje">
+            <h2>Hospedaje</h2>
+            <div class="contenedor-cards">
+                <div class="card">
+                    <img src="img/hospedaje1.jpg" alt="imagen hospedaje">
+                    <div class="info">
+                        <p class="categoria hospedaje">Casa completa - 2 camas</p>
+                        <p class="titulo">Casa completa con todos los servicios y 2 habitaciones</p>
+                        <p class="precio">3,200€ por noche</p>
+                    </div>
+                </div> <!-- .card -->
+
+                <section class="hospedaje">
+                    <h2>Hospedaje</h2>
+                    <div class="contenedor-cards">
+                        <div class="card">
+                            <img src="img/hospedaje2.jpg" alt="imagen hospedaje">
+                            <div class="info">
+                                <p class="categoria hospedaje">1 Cuarto con 2 camas</p>
+                                <p class="titulo">1 Cuarto con 2 camas y </p>
+                                <p class="precio">2,200€ por noche</p>
+                            </div>
+                        </div> <!-- .card -->
+                    </div>
+                </section>
+    </main>
+</body>
+
+</html>
