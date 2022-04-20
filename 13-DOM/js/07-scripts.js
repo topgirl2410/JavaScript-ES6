@@ -25,3 +25,10 @@ console.log(card.classList);
 const card1 = document.querySelector('.card');
 card.classList.add('nueva-clase1', 'segunda-clase');
 console.log(card1.classList);
+
+
+/************************************* Remover una clase ***********************************************/
+
+const borrar = document.querySelector('.card');
+card.classList.remove('card');
+console.log(borrar.classList);
