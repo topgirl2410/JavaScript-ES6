@@ -5,6 +5,8 @@
 const navegacion = document.querySelector('.navegacion');
 
 console.log(navegacion);
+console.log(navegacion.firstElementChild); // Te devuelve el primer enlace 
+console.log(navegacion.lastElementChild);  // Te devuelve el ultimo enlace 
 console.log(navegacion.childNodes);  // Los espacios en blanco (saltos de linea) son considerados elementos
 console.log(navegacion.children); // Te va a listar elementos reales;
 console.log(navegacion.children[0].nodeName);
@@ -53,7 +55,7 @@ const target = document.querySelector('.card');
 
 console.log(target);
 
-console.log(target.nextElementSibling);
+console.log(target.nextElementSibling);  // Va hacia el siguiente elemento 
 
 console.log(target.nextElementSibling.nextElementSibling);
 
@@ -65,3 +67,5 @@ const ultimoCard = document.querySelector('.card:nth-child(4)');
 console.log(ultimoCard);
 
 console.log(ultimoCard.previousElementSibling); // Recorre hacia el elemento previo (hacia atras)
+
+
