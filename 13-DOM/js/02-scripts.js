@@ -1,6 +1,6 @@
 'use strict';
 
-// Seleccionar elementos por su clase 
+// Seleccionar elementos por su clase (Ya no es el que más se usa, pero esta bien tambien saberlo )
 
 const header = document.getElementsByClassName("header");
 
