@@ -101,7 +101,9 @@ card.appendChild(info);
 
 const contenedor = document.querySelector('.hacer .contenedor-cards');
 
-contenedor.appendChild(card);
+//contenedor.appendChild(card); // (si quieres insertarlo al final)
+
+contenedor.insertBefore(card, contenedor.children[2]);  // (si quieres insertarlo en cualquier otro lugar que no sea el final)
 
 /*************************************** Parrafos ************************************************ */
 
