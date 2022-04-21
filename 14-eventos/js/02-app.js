@@ -10,7 +10,7 @@ nav.addEventListener('click', () => {
 
 /************************************ Eventos (mouseenter) ***********************************************************/
 
-nav.addEventListener('mouseenter', () => {  // se activa pasando el mouse por encima del enlace
+nav.addEventListener('mouseenter', () => {  
     console.log('entrando a la navegación')
 
     nav.style.backgroundColor = 'white';
@@ -18,7 +18,7 @@ nav.addEventListener('mouseenter', () => {  // se activa pasando el mouse por en
 
 /************************************ Eventos (mouseout) ***********************************************************/
 
-nav.addEventListener('mouseout', () => {   // Se activa cuando sales de encima de la navegación
+nav.addEventListener('mouseout', () => {   
     console.log('saliendo de la navegación')
 
     nav.style.backgroundColor = 'transparent';
