@@ -83,7 +83,6 @@ imagen.src = 'img/hacer2.jpg';
 imagen.classList.add('img-fuid');
 imagen.alt = 'imagen creada desde javascript';
 
-
 // Crear el Card
 
 const card = document.createElement('div');
@@ -98,9 +97,11 @@ card.appendChild(imagen);
 
 card.appendChild(info);
 
+// Insertar en el HTML 
 
+const contenedor = document.querySelector('.hacer .contenedor-cards');
 
-
+contenedor.appendChild(card);
 
 /*************************************** Parrafos ************************************************ */
 
@@ -118,4 +119,8 @@ card.appendChild(info);
 
 /*********************************************** Card ***************************************** */
 
-console.log(card);
+//console.log(card);
+
+/*********************************************** Contenedor ***************************************** */
+
+console.log(contenedor);
