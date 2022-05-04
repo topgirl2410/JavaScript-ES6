@@ -17,6 +17,6 @@ valor = diaHoy.getHours(); // La hora en la que estamos
 
 valor = diaHoy.getTime(); // Los milisegundos que han pasado desde el 1 de enero de 1970 hasta ahora
 
-
 /****************************************************************************************************** */
-console.log(valor);
+
+console.log(diaHoy);
