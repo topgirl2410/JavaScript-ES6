@@ -7,26 +7,38 @@ function Cliente(nombre, saldo) {
 }
 
 
-Cliente.prototype.tipoCliente = function() {
-    console.log('Desde mi nuevo proto')
+Cliente.prototype.tipoCliente = function () {
+    let tipo;
+
+    if (this.saldo >= 10000) {
+        tipo = 'Gold';
+    } else if (this.saldo >= 5000) {
+        tipo = 'Platinum';
+    } else {
+        tipo = 'Normal';
+    }
+
+    return tipo;
 }
 
+Cliente.prototype.nombreClienteSaldo = function () {
+    return `Nombre: ${this.nombre}, Saldo: ${this.saldo}, Tipo Cliente: ${this.tipoCliente()}`
+}
+
+
+Cliente.prototype.retiraSaldo = function (retira) {
+    this.saldo -= retira;
+}
 // Instanciarlo 
 
-const usuario = new Cliente('mario', 3000);
+const usuario = new Cliente('Maria', 5000);
 
-usuario.tipoCliente();
+console.log(usuario.tipoCliente());
 
-console.log(usuario);
-/*************************************************************************************************************** */
+console.log(usuario.nombreClienteSaldo());
 
-function Empresa(nombre, saldo, categoria) {
-    this.nombre = nombre;
-    this.saldo = saldo;
-    this.categoria = categoria;
-}
+usuario.retiraSaldo(1000);
 
-const MLP = new Empresa('Programación con María', 6000, 'Cursos en Línea');
+console.log(usuario.nombreClienteSaldo());
 
-
-console.log(MLP);
+console.log(usuario)
