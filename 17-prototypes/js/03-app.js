@@ -41,4 +41,4 @@ usuario.retiraSaldo(1000);
 
 console.log(usuario.nombreClienteSaldo());
 
-console.log(usuario)
+console.log(usuario);
