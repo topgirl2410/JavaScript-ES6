@@ -35,8 +35,20 @@ function Persona(nombre, saldo, telefono) {
     this.telefono = telefono;
 }
 
+Persona.prototype = Object.create(Cliente.prototype);
+
+Persona.prototype.constructor = Cliente;
+
 // Instanciarlo 
 
 const usuario = new Persona('Nuria', 5000, 695179087);
 
 console.log(usuario);
+
+console.log(usuario.nombreClienteSaldo());
+
+Persona.prototype.mostrarTelefono = function () {
+    return ` El teléfono de esta persona es: ${this.telefono}`
+}
+
+console.log(usuario.mostrarTelefono());
