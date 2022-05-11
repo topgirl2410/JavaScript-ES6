@@ -21,4 +21,4 @@ const Cliente2 = class {
 }
 
 const nombre2 = new Cliente2('Maria', 800);
-console.log(nombre2)
+console.log(nombre2);
