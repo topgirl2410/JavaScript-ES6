@@ -1,6 +1,6 @@
 'use strict';
 
-/******************************************* WeakSet *********************************************************/
+/**************** WeakSet (no son iterables, solo puede almacenar objetos y no tiene .size(pregunta importante en entrevistas))*********************************************************/
 
 const ws = new WeakSet();
 
@@ -13,4 +13,6 @@ const cliente = {
 ws.add(cliente);
 
 
-console.log(ws);
+//console.log(ws);
+//console.log(ws.has(cliente));
+//console.log(ws.delete(cliente));
