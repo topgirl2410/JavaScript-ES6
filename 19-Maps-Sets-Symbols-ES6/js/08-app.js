@@ -32,3 +32,16 @@ for (let value of ordenes.values()) {
 for (let value of datos.values()) {
     console.log(value);
 }
+
+// Keys Iterator 
+for (let keys of ciudades.keys()) {
+    console.log(keys);
+}
+
+for (let keys of ordenes.keys()) {
+    console.log(keys);
+}
+
+for (let keys of datos.keys()) {
+    console.log(keys);
+}
