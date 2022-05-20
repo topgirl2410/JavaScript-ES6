@@ -34,3 +34,12 @@ console.log(carrito.size); // Tamaño
 //console.log(carrito.delete('Jersey'));  // Elimina
 //console.log(carrito.clear());
 console.log(carrito);
+
+
+
+// Del siguiente arreglo, elimina los duplicados  (ejemplo de un Set)
+const numeros = [1, 2, 3, 4, 5, 6, 1, 2];
+
+const noDuplicados = new Set(numeros);
+
+console.log(noDuplicados);
