@@ -25,3 +25,9 @@ export class Cliente {
         return `Cliente: ${nombre} - Ahorro: ${ahorro}`
     }
 }
+
+/************************************************************ Export Default (solo se puede tener un export default)**********************************************************************/
+export default function nuevaFuncion() {
+    console.log('Este es el export por default')
+}
+
